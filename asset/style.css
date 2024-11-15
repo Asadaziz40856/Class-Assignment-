@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+  
+  body {
+    background: #f2f3f3;
+  }
+  .main {
+    width: 75%;
+    margin: auto;
+    margin-top: 7%;
+  }
+  
+  div h2 {
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  .sDiv {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .sDiv h3 {
+    font-weight: 400;
+  }
+  
+  #fH3 {
+    font-weight: 500;
+    text-decoration: underline 3px rgb(55, 55, 153);
+    text-underline-offset: 5px;
+  }
+  
+  .mainImg {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+  
+  .imgDiv {
+    background-color: #ffff;
+    height: 120px;
+    width: 160px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .imgDiv p {
+    font-size: medium;
+    font-weight: 300;
+    transition: font-weight 0.3s ease-in-out;
+  }
+  
+  .imgDiv:hover {
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  .imgDiv:hover p {
+    font-weight: 500;
+  }
